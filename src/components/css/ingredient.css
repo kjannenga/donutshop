@@ -1,0 +1,26 @@
+
+textarea {
+    resize: none;
+    border-radius:5px;
+    background-color:#ccc;
+    color:#515151;
+
+}
+
+.amount {height:25px;
+      width: 50px;
+      border:1px solid black;
+      border-radius:5px;
+      
+}
+.select{
+    height:25px;
+    width:70px;
+    background-color:#ccc;
+    color:#515151;
+    
+}
+.what{
+    width:195px;
+    height:25px;
+}

@@ -21,9 +21,12 @@ class RecipeForm extends Component {
           "ingredients":[
             {
               "item":[
-              {"amount":"",
-              "unit":"",
-              "what":""}]
+                {
+                  "amount":"",
+                  "unit":"",
+                  "what":""
+                }
+              ]
 
             }]
     }
@@ -108,17 +111,19 @@ class RecipeForm extends Component {
       			<input placeholder="recipe name" type="text" name="name" onChange={this.handleChange} value={this.state.name}></input>
 
             <input placeholder="by" type="text" name="by" onChange={this.handleChange} value={this.state.by}></input>
-
-				
-            {this.state.steps.map((step,i)=>(
-                <StepForm key={"StepForm" + i} index={i} updateStep={this.updateStep} />
-            ))}
+             
             {this.state.ingredients.map((ingredient,i)=>(
                 <IngredientForm key={"IngredientForm"+i} index={i} updateIngredient={this.updateIngredient}/>
             ))}
-           
+
+				    <button onClick={this.addIngredient}>Add Ingredient</button>
+
+            {this.state.steps.map((step,i)=>(
+                <StepForm key={"StepForm" + i} index={i} updateStep={this.updateStep} />
+            ))}
+            
             <button onClick={this.addStep}>Add Step</button>
-            <button onClick={this.addIngredient}>Add Ingredient</button>
+  
             <button onClick={this.saveRecipe}>Save this </button>
       		
 

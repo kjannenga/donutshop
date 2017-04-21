@@ -16,8 +16,8 @@
 			"cookTime":"60min",
 			"cookTemp":350,
 			"ForC":"F",
-			"amount":2,
-			"amountType":"servings"
+			"batch":2,
+			"batchType":"servings"
 		}
 	],
 	"steps": [

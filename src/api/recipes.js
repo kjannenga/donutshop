@@ -6,7 +6,6 @@ export function addRecipe(recipe) {
   const recipeData = {
     "name":recipe.name,
     "by":recipe.by
-
   }
 
  
@@ -31,7 +30,7 @@ export function addRecipe(recipe) {
    recipe.ingredients.forEach(ingredient=>{
      const ingredientData = {
        recipeId:id,
-       
+
       ...ingredient
      }
      
