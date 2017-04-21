@@ -1,0 +1,33 @@
+{
+  "users": [],
+  "recipes": [
+    {
+      "name": "dsf",
+      "by": "sadf",
+      "id": 1
+    }
+  ],
+  "steps": [
+    {
+      "recipeId": 1,
+      "directions": "sadfas",
+      "id": 1
+    },
+    {
+      "recipeId": 1,
+      "directions": "asdfasd",
+      "id": 2
+    },
+    {
+      "recipeId": 1,
+      "directions": "asd",
+      "id": 3
+    },
+    {
+      "recipeId": 1,
+      "directions": "",
+      "id": 4
+    }
+  ],
+  "ingredients": []
+}

@@ -1,0 +1,41 @@
+{	"users":[
+  {
+    "id":1,
+    "name":""
+  }
+],
+  
+  "recipes":[
+		{
+			"id":1,
+            "foodpic":"",
+			"name":"Recipe Name",
+            "by":"mike",
+			"type":"dessert",
+			"prepTime":"40min",
+			"cookTime":"60min",
+			"cookTemp":350,
+			"ForC":"F",
+			"amount":2,
+			"amountType":"servings"
+		}
+	],
+	"steps": [
+       {
+           "id":1,
+           "recipeId":1,
+           "directions":""
+       }
+   ],
+   "ingredients": [
+       {
+           "id":1,
+           "stepId":1,
+           "amount":2,
+           "unit":"",
+           "what":""
+       }
+   ]
+  
+
+}
