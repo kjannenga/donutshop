@@ -19,8 +19,24 @@ export function addRecipe(recipe) {
        recipeId:id,
       ...step
      }
+     
      postFunctions.push(function(){
        return axios.post('http://localhost:3001/steps',stepData).then(resp =>{
+          console.log(resp)
+     })
+     }())
+    
+   })
+
+   recipe.ingredients.forEach(ingredient=>{
+     const ingredientData = {
+       recipeId:id,
+       
+      ...ingredient
+     }
+     
+     postFunctions.push(function(){
+       return axios.post('http://localhost:3001/ingredients',ingredientData).then(resp =>{
           console.log(resp)
      })
      }())

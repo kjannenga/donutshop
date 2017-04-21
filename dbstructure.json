@@ -31,9 +31,14 @@
        {
            "id":1,
            "stepId":1,
-           "amount":2,
-           "unit":"",
-           "what":""
+           "items":[
+               {
+                "amount":2,
+                "unit":"",
+                "what":""
+               }
+           ]
+           
        }
    ]
   
