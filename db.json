@@ -1,6 +1,41 @@
 {
   "users": [],
-  "recipes": [],
-  "steps": [],
-  "ingredients": []
+  "recipes": [
+    {
+      "name": "sdas",
+      "by": "sda",
+      "id": 1
+    }
+  ],
+  "steps": [
+    {
+      "recipeId": 1,
+      "directions": "2342",
+      "id": 1
+    },
+    {
+      "recipeId": 1,
+      "directions": "fdagsgh",
+      "id": 2
+    },
+    {
+      "recipeId": 1,
+      "directions": "dfagghh",
+      "id": 3
+    },
+    {
+      "recipeId": 1,
+      "directions": "add",
+      "id": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "recipeId": 1,
+      "items": [
+        {}
+      ],
+      "id": 1
+    }
+  ]
 }
