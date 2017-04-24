@@ -1,16 +1,22 @@
-
+.ingline{
+    display:flex;
+    align-items:baseline;
+    
+}
 textarea {
     resize: none;
     border-radius:5px;
     background-color:#ccc;
     color:#515151;
+    
 
 }
 
 .amount {height:25px;
       width: 50px;
-      border:1px solid black;
       border-radius:5px;
+      margin:10px;
+      
       
 }
 .select{
@@ -18,9 +24,12 @@ textarea {
     width:70px;
     background-color:#ccc;
     color:#515151;
+    margin:10px;
+   
     
 }
 .what{
     width:195px;
     height:25px;
+    margin:10px;
 }

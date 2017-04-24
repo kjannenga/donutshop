@@ -38,7 +38,7 @@ class ingredientForm extends Component {
     render(){
         return(
 
-            <div>
+            <div className="ingline">
 
                 <textarea className="amount" value={this.state.amount} placeholder="amount" name="amount" onChange={this.handleChange}></textarea>
 
